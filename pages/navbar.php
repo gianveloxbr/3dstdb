@@ -1,6 +1,9 @@
-<body>
+<body style="background:url('res/bkg.jpg') no-repeat center center fixed !important; -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">3DSTDB</a>
+  <a class="navbar-brand" href="#"><img src="res/icon.png" width="30%">3DSTDB</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -16,8 +19,6 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Adventure</a>
-          <a class="dropdown-item" href="#">RPG</a>
         </div>
       </li>
       <li class="nav-item">
@@ -30,3 +31,4 @@
     </form>
   </div>
 </nav>
+<br>
