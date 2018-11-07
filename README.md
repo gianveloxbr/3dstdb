@@ -2,7 +2,6 @@
 3DS QR Code Database for CIA.
 
 ### Features to add:
-+ List all the games using the DB.
 + Add an admin page for more security.
 + Add more details to the Games(Publisher, Platform(Digital or Physical).
 + Add more genres.
@@ -13,6 +12,7 @@
 + Basic insertion into the database.
 + Integration with PHPQRCode.
 + QRCode already being generated using the parameters sended by user.
++ List all the games using the DB.
 
 ### Database Info
 + Create a new database with the name '3ds' using UTF8_general_ci
