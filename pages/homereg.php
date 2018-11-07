@@ -1,4 +1,4 @@
-<form action="libs/addGame.php" method="POST" enctype="multipart/form-data">
+<form action="../libs/addGame.php" id="FormAdd" method="POST" enctype="multipart/form-data">
   <div class="form-group">
     <label for="gameName">Name of the Game</label>
     <input type="text" class="form-control" name="name" id="gameName" placeholder="Ex.: Super Mario 3D Land...">
@@ -36,5 +36,5 @@
     <label for="gameBox">Game box image</label>
     <input type="file" class="form-control-file" name="box" id="gameBox">
   </div>
-  <button type="submit" class="btn btn-primary mb-2">Add</button>
+  <input type="submit" class="btn btn-primary mb-2" value="Add">
 </form>
